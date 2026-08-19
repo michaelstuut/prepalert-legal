@@ -1,6 +1,6 @@
 # PrepAlert — Gebruiksvoorwaarden
 
-**Laatst bijgewerkt: 19 augustus 2026 · App-versie 1.4.1**
+**Laatst bijgewerkt: 19 augustus 2026 · App-versie 1.5.0**
 
 [English version below ↓](#prepalert--terms-of-use)
 
@@ -68,7 +68,7 @@ Privacybeleid: [README.md](README.md)
 
 # PrepAlert — Terms of Use
 
-**Last updated: 19 August 2026 · App version 1.4.1**
+**Last updated: 19 August 2026 · App version 1.5.0**
 
 > ### ⚠️ PrepAlert is not an emergency service
 >
