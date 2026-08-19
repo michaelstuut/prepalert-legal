@@ -1,12 +1,12 @@
 # PrepAlert — Privacybeleid
 
-**Laatst bijgewerkt: 19 augustus 2026 · App-versie 1.4.1**
+**Laatst bijgewerkt: 19 augustus 2026 · App-versie 1.5.0**
 
 [English version below ↓](#prepalert--privacy-policy)
 
 ---
 
-**De korte versie.** PrepAlert heeft geen account, geen advertenties, geen trackers en geen software van derden. Alles wat je invoert — je trefwoorden, je voorraadlijst, je noodcontacten — blijft op je toestel. Wat de app wél verstuurt staat hieronder tot op het veld nauwkeurig beschreven.
+**De korte versie.** PrepAlert heeft geen account, geen advertenties, geen trackers en geen software van derden. Alles wat je invoert — je trefwoorden, je voorraadlijst, je noodcontacten — blijft op je toestel. Het enige wat de app wegstuurt is een anonieme telling van installaties. Hieronder staat het tot op het veld nauwkeurig beschreven.
 
 ## 1. Wie is verantwoordelijk
 
@@ -36,11 +36,7 @@ De app haalt nieuws op bij openbare RSS-bronnen: onder meer BBC World, Reuters, 
 
 Bij de eerste start maakt de app een **willekeurige identificatie** aan (een UUID die op je toestel wordt gegenereerd) en schrijft die samen met een tijdstempel naar de publieke iCloud-database van de app. Dat gebeurt om te tellen hoe vaak de app geïnstalleerd is. Deze identificatie is bewust *niet* de identifier for vendor (IDFV) van Apple en niet aan je Apple Account, je toestel of je persoon te koppelen. Er staat verder niets in dat record.
 
-### 3.3 Activiteitsrecord in jouw eigen iCloud
-
-De app schrijft bij het opstarten een record naar de **privé-database van jouw eigen iCloud-account** met: de datum waarop je de app voor het laatst opende, je landcode (twee letters), het versienummer van de app en of PrepAlert Pro actief is. Alleen jij hebt via je Apple Account toegang tot die database; de ontwikkelaar kan hem niet lezen. Zet je iCloud uit, dan gebeurt dit niet.
-
-### 3.4 Aankopen
+### 3.3 Aankopen
 
 PrepAlert Pro is een eenmalige aankoop die volledig via de App Store van Apple loopt. Apple verwerkt de betaling; de ontwikkelaar ontvangt geen betaalgegevens, geen naam en geen adres — alleen het feit dat er een geldige aankoop op jouw Apple Account staat.
 
@@ -50,8 +46,8 @@ Locatietoegang is **optioneel**. Zonder toestemming werkt de app gewoon; hij geb
 
 - De app vraagt om locatie **alleen tijdens gebruik** ("when in use"), nooit op de achtergrond.
 - De gevraagde nauwkeurigheid is **op kilometerniveau** — de app vraagt bewust niet om een preciezere positie.
-- Je coördinaten worden op het toestel omgezet naar een **landcode**. Alleen die landcode wordt bewaard, en alleen in jouw eigen privé-iCloud (zie 3.3).
-- Je coördinaten worden **nergens naartoe gestuurd** en niet bewaard. Ze worden op het toestel gebruikt om de afstand tot een crisis te berekenen.
+- Je coördinaten worden op het toestel omgezet naar een **landcode**, die alleen op je toestel wordt bewaard.
+- Er verlaat **geen enkel locatiegegeven je toestel** — niet je coördinaten en niet je landcode. Ze worden uitsluitend op het toestel gebruikt: om lokaal nieuws te kiezen en om de afstand tot een crisis te berekenen.
 
 ## 5. SOS-berichten
 
@@ -77,18 +73,16 @@ PrepAlert bevat **geen** advertentienetwerk, **geen** analysepakket en **geen** 
 | Nieuwsarchief in de app | Je toestel | Rollend, oudste berichten vallen automatisch af |
 | Dagelijkse tellingen voor de trend | Je toestel | Maximaal 120 dagen |
 | Anonieme installatie-identificatie | Publieke iCloud-database | Onbepaald; bevat geen persoonsgegevens |
-| Activiteitsrecord | Jouw privé-iCloud | Tot jij het verwijdert |
 
 ## 10. Jouw rechten (AVG)
 
 Omdat de app geen account kent en de ontwikkelaar geen gegevens bewaart die naar jou te herleiden zijn, is er in de praktijk niets om op te vragen of te laten wissen. Concreet:
 
 - **Inzage en verwijdering van lokale gegevens:** alles staat in de app zelf. Verwijder je de app, dan is het weg.
-- **Activiteitsrecord:** dat staat in jouw eigen iCloud. Je verwijdert het via Instellingen → [je naam] → iCloud → Beheer accountopslag, of door de app te verwijderen en de iCloud-gegevens voor de app te wissen.
 - **Anonieme installatie-identificatie:** die is niet aan jou te koppelen, dus niet individueel opvraagbaar. Wil je hem toch verwijderd hebben, mail dan het ongeveer-tijdstip van installatie en we kijken wat mogelijk is.
 - **Klachten:** je kunt een klacht indienen bij de Autoriteit Persoonsgegevens (autoriteitpersoonsgegevens.nl) of bij de toezichthouder in je eigen land.
 
-Grondslag voor de verwerking van de landcode en het activiteitsrecord is het gerechtvaardigd belang om de app te laten werken en te onderhouden (art. 6 lid 1 sub f AVG). Locatietoegang berust op jouw toestemming, die je op elk moment kunt intrekken in Instellingen → PrepAlert → Locatie.
+Grondslag voor het tellen van installaties is het gerechtvaardigd belang om de app te onderhouden (art. 6 lid 1 sub f AVG). Locatietoegang berust op jouw toestemming, die je op elk moment kunt intrekken in Instellingen → PrepAlert → Locatie; die gegevens blijven hoe dan ook op je toestel.
 
 ## 11. Kinderen
 
@@ -109,9 +103,9 @@ Gebruiksvoorwaarden: [TERMS.md](TERMS.md)
 
 # PrepAlert — Privacy Policy
 
-**Last updated: 19 August 2026 · App version 1.4.1**
+**Last updated: 19 August 2026 · App version 1.5.0**
 
-**The short version.** PrepAlert has no account, no ads, no trackers and no third-party software. Everything you enter — your keywords, your supply list, your emergency contacts — stays on your device. What the app does send is described field by field below.
+**The short version.** PrepAlert has no account, no ads, no trackers and no third-party software. Everything you enter — your keywords, your supply list, your emergency contacts — stays on your device. The only thing the app sends is an anonymous count of installs. It is described field by field below.
 
 ## 1. Who is responsible
 
@@ -141,11 +135,7 @@ The app fetches news from public RSS sources, including BBC World, Reuters, Al J
 
 On first launch the app generates a **random identifier** (a UUID created on your device) and writes it, with a timestamp, to the app's public iCloud database. This is done to count how often the app has been installed. This identifier is deliberately *not* Apple's identifier for vendor (IDFV) and cannot be linked to your Apple Account, your device or you. The record contains nothing else.
 
-### 3.3 Activity record in your own iCloud
-
-On launch the app writes a record to the **private database of your own iCloud account** containing: the date you last opened the app, your two-letter country code, the app version, and whether PrepAlert Pro is active. Only you can access that database through your Apple Account; the developer cannot read it. If you turn iCloud off, this does not happen.
-
-### 3.4 Purchases
+### 3.3 Purchases
 
 PrepAlert Pro is a one-time purchase handled entirely by Apple's App Store. Apple processes the payment; the developer receives no payment details, no name and no address — only the fact that a valid purchase exists on your Apple Account.
 
@@ -155,8 +145,8 @@ Location access is **optional**. The app works without it, falling back to your 
 
 - The app requests location **while in use only**, never in the background.
 - The accuracy requested is **kilometre level** — the app deliberately does not ask for a more precise position.
-- Your coordinates are converted on the device into a **country code**. Only that country code is stored, and only in your own private iCloud (see 3.3).
-- Your coordinates are **not sent anywhere** and not retained. They are used on the device to work out how far away a crisis is.
+- Your coordinates are converted on the device into a **country code**, which is stored on your device only.
+- **No location data leaves your device** — neither your coordinates nor your country code. They are used solely on the device: to pick local news and to work out how far away a crisis is.
 
 ## 5. SOS messages
 
@@ -182,18 +172,16 @@ PrepAlert contains **no** advertising network, **no** analytics package and **no
 | In-app news archive | Your device | Rolling; oldest reports drop off automatically |
 | Daily counts for the trend chart | Your device | 120 days maximum |
 | Anonymous install identifier | Public iCloud database | Indefinite; contains no personal data |
-| Activity record | Your private iCloud | Until you delete it |
 
 ## 10. Your rights (GDPR)
 
 Because the app has no account and the developer holds no data that identifies you, there is in practice nothing to request or erase. Specifically:
 
 - **Access to and deletion of local data:** it is all in the app. Delete the app and it is gone.
-- **Activity record:** it lives in your own iCloud. Remove it via Settings → [your name] → iCloud → Manage Account Storage, or by deleting the app and clearing its iCloud data.
 - **Anonymous install identifier:** it cannot be linked to you, so it cannot be looked up individually. If you would still like it removed, email the approximate install date and we will see what is possible.
 - **Complaints:** you may lodge a complaint with the Dutch Data Protection Authority (autoriteitpersoonsgegevens.nl) or your local supervisory authority.
 
-The legal basis for processing the country code and activity record is the legitimate interest in operating and maintaining the app (Art. 6(1)(f) GDPR). Location access relies on your consent, which you can withdraw at any time in Settings → PrepAlert → Location.
+The legal basis for counting installs is the legitimate interest in maintaining the app (Art. 6(1)(f) GDPR). Location access relies on your consent, which you can withdraw at any time in Settings → PrepAlert → Location; either way that data stays on your device.
 
 ## 11. Children
 
